@@ -819,7 +819,7 @@
                     </div>
                 </section>
 
-                <section class="our-news section-margin">
+                <section class="our-news section-margin" >
                     <div class="container">
                         <div class="one-title" data-dsn-animate="up">
                             <div class="title-sub-container">
