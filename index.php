@@ -1,143 +1,4 @@
-<!DOCTYPE html>
-<html lang="en-US">
-
-<head>
-
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="discrption" content="parallax one page" />
-    <meta name="keyword"
-        content="agency, business, corporate, creative, freelancer, interior, joomla template, K2 Blog, minimal, modern, multipurpose, personal, portfolio, responsive, simple" />
-
-    <!--  Title -->
-    <title>E-Summit-Aryabhatta</title>
-
-    <!-- Font Google -->
-    <link href="../../fonts.googleapis.com/css9865.css?family=Montserrat:400,500,600,700,800&amp;display=swap" rel="stylesheet">
-    <link href="../../fonts.googleapis.com/css9edc.css?family=Raleway:400,500,600,700&amp;display=swap" rel="stylesheet">
-
-    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
-    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
-
-    <!-- custom styles (optional) -->
-    <link href="assets/css/plugins.css" rel="stylesheet" />
-    <link href="assets/css/style.css" rel="stylesheet" />
-
-</head>
-
-<body class="hamburger-menu dsn-effect-scroll dsn-ajax" data-dsn-mousemove="true">
-
-    <div class="preloader">
-        <div class="preloader-after"></div>
-        <div class="preloader-before"></div>
-        <div class="preloader-block">
-            <div class="title">E-Summit'21</div>
-            <div class="percent">0</div>
-            <div class="loading">loading...</div>
-        </div>
-        <div class="preloader-bar">
-            <div class="preloader-progress"></div>
-        </div>
-    </div>
-
-    <!-- Nav Bar -->
-    <div class="dsn-nav-bar">
-        <div class="site-header">
-            <div class="extend-container">
-                <div class="inner-header">
-                    <div class="main-logo">
-                        <a href="index-2.html">
-                            <img class="dark-logo" src="assets/img/ecell-white.png" alt="" />
-                            <img class="light-logo" src="assets/img/ecell-white.png" alt="" />
-                        </a>
-                    </div>
-                </div>
-                <nav class=" accent-menu main-navigation">
-                    <ul class="extend-container">
-                        <li class="custom-drop-down">
-                            <a href="#">Home</a>
-                            <ul>
-                                <li><a href="index-2.html">Main Demo</a></li>
-                                <li><a href="one-page-3.html">One Page Three</a></li>
-                                <li><a href="one-page-4.html">One Page Four</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="about.html">About</a></li>
-                        <li class="custom-drop-down">
-                            <a href="#">Speakers</a>
-                            <ul>
-                                <li><a href="slider.html">Speakers</a></li>
-                                <li><a href="slider2.html">Slider two</a></li>
-                                <li><a href="slider3.html">Slider Three</a></li>
-                            </ul>
-                        </li>
-                        <li class="custom-drop-down">
-                            <a href="#">Events</a>
-                            <ul>
-                                <li><a href="work.html">Work</a></li>
-                                <li><a href="project-9.html">Header One</a></li>
-                                <li><a href="project-7.html">Header Two</a></li>
-                                <li><a href="project-5.html">Header Three</a></li>
-                            </ul>
-                        </li>
-                        <li class="custom-drop-down">
-                            <a href="#">Sponsors</a>
-                            <ul>
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="post.html">Single Post</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="contact.html">Register</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-        <div class="header-top header-top-hamburger">
-            <div class="header-container">
-                <div class="logo main-logo">
-                    <a href="index-2.html">
-                        <img class="dark-logo" src="assets/img/ecell-white.png" alt="" />
-                        <img class="light-logo" src="assets/img/ecell-white.png" alt="" />
-                    </a>
-                </div>
-
-                <div class="menu-icon" data-dsn="parallax" data-dsn-move="5">
-                    <div class="icon-m">
-                        <i class="menu-icon-close fas fa-times"></i>
-                        <span class="menu-icon__line menu-icon__line-left"></span>
-                        <span class="menu-icon__line"></span>
-                        <span class="menu-icon__line menu-icon__line-right"></span>
-                    </div>
-
-                    <div class="text-menu">
-                        <div class="text-button">View More</div>
-                        <div class="text-open">Open</div>
-                        <div class="text-close">Close</div>
-                    </div>
-                </div>
-
-                <div class="nav">
-                    <div class="inner">
-                        <div class="nav__content">
-
-                        </div>
-                    </div>
-                </div>
-                <div class="nav-content">
-                    <div class="inner-content">
-                        <address class="v-middle">
-                            <span>The Entrepreneurship Cell</span>
-                            <span>Aryabhatta College</span>
-                            <span>Delhi University</span>
-                        </address>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Nav Bar -->
-
+<?php include "header.php" ?>
     <main class="main-root">
         <div id="dsn-scrollbar">
             <div class="dsn-slider" data-dsn-header="project">
@@ -155,7 +16,7 @@
 
                                         <div class="title-text-header">
                                             <div class="title-text-header-inner">
-                                                <a href="#speakersofesummit" class="effect-ajax" data-dsn-ajax="slider">
+                                                <a href="project-9.html" class="effect-ajax" data-dsn-ajax="slider">
                                                     E-Summit 2021
                                                 </a>
                                             </div>
@@ -164,10 +25,8 @@
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
                                         <div class="link-custom">
-                                          <a href=""  class="view-case scroll-down scroll-to">Scroll Down <img
-                                                  src="assets/img/arrow-right-wight.png" alt=""></a>
-                                            <!-- <a href="#speakersofesummit" class="image-zoom effect-ajax" data-dsn="parallax"
-                                                data-dsn-ajax="slider"> -->
+                                            <a href="about.html" class="image-zoom effect-ajax" data-dsn="parallax"
+                                                data-dsn-ajax="slider">
                                                 <span>About Us</span>
                                             </a>
                                         </div>
@@ -175,7 +34,7 @@
                                     </div>
                                 </div>
                                 <div class="image-container">
-                                    <div class="image-bg cover-bg" data-image-src="assets/img/sampleimg/6.jpg"
+                                    <div class="image-bg cover-bg" data-image-src="assets/img/project/project9/digitalboom.jpg"
                                         data-overlay="0">
                                         <img src="assets/img/project/project9/digitalboom.jpg" alt="">
                                     </div>
@@ -193,8 +52,8 @@
 
                                         <div class="title-text-header">
                                             <div class="title-text-header-inner">
-                                                <a href="#speakersofesummit" class="effect-ajax" data-dsn-ajax="slider">
-                                                    SPEAKERS
+                                                <a href="project-4.html" class="effect-ajax" data-dsn-ajax="slider">
+                                                    About Us
                                                 </a>
                                             </div>
                                         </div>
@@ -202,7 +61,7 @@
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
                                         <div class="link-custom">
-                                            <a href="#speakersofesummit" class="image-zoom effect-ajax" data-dsn="parallax"
+                                            <a href="project-4.html" class="image-zoom effect-ajax" data-dsn="parallax"
                                                 data-dsn-ajax="slider">
                                                 <span>View Case</span>
                                             </a>
@@ -488,7 +347,7 @@
                     <div class="swiper-wrapper" role="navigation">
                         <div class="swiper-slide">
                             <div class="image-container">
-                                <div class="image-bg cover-bg" data-image-src="assets/img/sampleimg/6.jpg"
+                                <div class="image-bg cover-bg" data-image-src="assets/img/project/project9/6.jpg"
                                     data-overlay="2">
                                 </div>
                             </div>
@@ -528,7 +387,7 @@
                                 <p>04</p>
                             </div>
                         </div>
-                        <!--
+
                         <div class="swiper-slide">
                             <div class="image-container">
                                 <div class="image-bg cover-bg" data-image-src="assets/img/project/project7/2.jpg"
@@ -536,7 +395,7 @@
                                 </div>
                             </div>
                             <div class="content">
-                                 <p>05</p>
+                                <p>05</p>
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -579,7 +438,6 @@
                                 <p>09</p>
                             </div>
                         </div>
-                        -->
                     </div>
                 </div>
 
@@ -652,21 +510,25 @@
 
                                     <h2 data-dsn-grid="move-section" data-dsn-move="-30" data-dsn-duration="100%"
                                         data-dsn-opacity="1.2" data-dsn-responsive="tablet">
-                                        About <br /> E-Summit 2021
+                                        Hello we are, <br /> Dsn Grid
                                     </h2>
 
-                                    <p data-dsn-animate="text">The E-Summit is an annual 2-day formal event, comprising competitions, seminars and workshops, where leaders from various fields come and share their experience and ex. The events provide an avenue for students to exhibit their talent, creativity and innovation about the rapidly developing entrepreneurial world through interesting & mind blowing competitions. The focus of the summit is to network with industry experts, inculcate a thought process towards entrepreneurship in the minds of future entrepreneurs in a professional and an efficient manner.
-</p>
+                                    <p data-dsn-animate="text">Founded in 2000, Dsn Grid has become one of the best
+                                        Digital
+                                        Agency in
+                                        ThemeForest.
+                                        Blue money going forward, but deploy to production. C-suite. First-order optimal
+                                        strategies build on a culture of contribution and inclusion so those options</p>
 
-                                    <h6 data-dsn-animate="text">The Entrepreneurship Cell</h6>
-                                    <small data-dsn-animate="text">Aryabhatta College</small>
+                                    <h6 data-dsn-animate="text">SALVADOR DALI</h6>
+                                    <small data-dsn-animate="text">Digital Artisit</small>
 
                                     <div class="exper">
                                         <div class="numb-ex">
-                                            <span class="word" data-dsn-animate="text">5</span>
+                                            <span class="word" data-dsn-animate="text">25</span>
                                         </div>
 
-                                        <h4 data-dsn-animate="up">YEARS OF <br> Training In Entrepreneurship</h4>
+                                        <h4 data-dsn-animate="up">YEARS OF <br> DIGITAL EXPERIENCE</h4>
                                     </div>
 
                                 </div>
@@ -689,9 +551,9 @@
                     <div class="container">
                         <div class="one-title" data-dsn-animate="up">
                             <div class="title-sub-container">
-                                <p class="title-sub">Our Important Timing</p>
+                                <p class="title-sub">Our Servcies</p>
                             </div>
-                            <h2 class="title-main">Be a part of our E-Summit family</h2>
+                            <h2 class="title-main">New Branding Agency</h2>
                         </div>
 
                         <div class="row">
@@ -700,12 +562,14 @@
                                     <div class="corner corner-top"></div>
                                     <div class="corner corner-bottom"></div>
                                     <div class="icon">
-                                        <img src="assets/img/services/3.png" alt="">
+                                        <img src="assets/img/services/1.png" alt="">
                                     </div>
                                     <div class="services-header">
-                                        <h3>March 32nd, 2021</h3>
+                                        <h3>DIGITAL PRODUCTS</h3>
                                     </div>
-                                    <p>Harsh Verma will come and speak to us. <br> Event No 1 and 2 will take place</p>
+                                    <p>Web design encompasses many different skills and disciplines in the production of
+                                        all
+                                        web.</p>
                                 </div>
                             </div>
 
@@ -717,9 +581,11 @@
                                         <img src="assets/img/services/2.png" alt="">
                                     </div>
                                     <div class="services-header">
-                                        <h3>March 33rd,2021</h3>
+                                        <h3>UI-UX DESIGN</h3>
                                     </div>
-                                    <p>Speaker 2 will come and speak to us. <br> Event No 3 and 4 will take place</p>
+                                    <p>Web design encompasses many different skills and disciplines in the production of
+                                        all
+                                        web.</p>
                                 </div>
                             </div>
 
@@ -728,13 +594,14 @@
                                     <div class="corner corner-top"></div>
                                     <div class="corner corner-bottom"></div>
                                     <div class="icon">
-                                        <img src="assets/img/services/1.png" alt="">
+                                        <img src="assets/img/services/3.png" alt="">
                                     </div>
                                     <div class="services-header">
-                                        <h3>12.00pm to 4.00pm</h3>
+                                        <h3>WEB DEVELOPMENT</h3>
                                     </div>
-                                    <p>Get ready to expeience life-enriching moments of your life.
-                                    <br>Join us on 32nd and 33rd of March at 12.00pm</p>
+                                    <p>Web design encompasses many different skills and disciplines in the production of
+                                        all
+                                        web.</p>
                                 </div>
                             </div>
                         </div>
@@ -744,13 +611,13 @@
                 <div class="box-seat box-seat-full section-margin">
                     <div class="container-fluid">
                         <div class="inner-img" data-dsn-grid="move-up">
-                            <img data-dsn-scale="1" data-dsn-y="30%" src="assets/img/sampleimg/8.jpg" alt="">
+                            <img data-dsn-scale="1" data-dsn-y="30%" src="assets/img/project/project2/3.jpg" alt="">
                         </div>
                         <div class="pro-text">
-                            <h3>Find the entrepreneur<br> in you.</h3>
-                            <p>The E-Summit allows you to listen from the top-notch people of the industry.
-                            <br>We believe "An entrepreneur was once a common man who dared to take a step."
-                            <br>Be a part of our events and get life-enriching moments for yourself. </p>
+                            <h3> How is your<br> visual identity?</h3>
+                            <p>A system that young people around the world with a club culture and techno
+                                enthusiasts feel identified. We generated a simple logo that is the basis for
+                                generating a geometric and liquid system. </p>
                             <div class="link-custom">
                                 <a class="image-zoom effect-ajax" href="project-2.html" data-dsn="parallax">
                                     <span>Learn More</span>
@@ -764,9 +631,9 @@
                     <div class="container">
                         <div class="one-title">
                             <div class="title-sub-container">
-                                <p class="title-sub">Our events</p>
+                                <p class="title-sub">Our Work</p>
                             </div>
-                            <h2 class="title-main">Participate in the following events</h2>
+                            <h2 class="title-main">Creative Portfolio Designs</h2>
                         </div>
                     </div>
                     <div class="container-fluid">
@@ -778,11 +645,11 @@
                                             <img class="has-top-bottom" src="assets/img/project/project3/1.jpg" alt="">
                                             <div class="item-border"></div>
                                             <div class="item-info">
-                                                <a href="" data-dsn-grid="move-up" class="effect-ajax">
+                                                <a href="project-7.html" data-dsn-grid="move-up" class="effect-ajax">
 
-                                                    <h5 class="cat">Event Number 1</h5>
-                                                    <h4>Lorem Ipsum</h4>
-                                                    <span><span>In this event Lorem Ipsum will happen</span></span>
+                                                    <h5 class="cat">Photography</h5>
+                                                    <h4>Nile - Kabutha</h4>
+                                                    <span><span>Veiw Project</span></span>
                                                 </a>
 
                                             </div>
@@ -792,11 +659,11 @@
                                             <img class="has-top-bottom" src="assets/img/project/project6/1.jpg" alt="">
                                             <div class="item-border"></div>
                                             <div class="item-info">
-                                                <a href="" data-dsn-grid="move-up" class="effect-ajax">
+                                                <a href="project-6.html" data-dsn-grid="move-up" class="effect-ajax">
 
-                                                    <h5 class="cat">Event Number 2</h5>
-                                                    <h4>Paragliding</h4>
-                                                    <span><span>In this event Lorem Ipsum will happen</span></span>
+                                                    <h5 class="cat">Fashion</h5>
+                                                    <h4>Bloawshom</h4>
+                                                    <span><span>Veiw Project</span></span>
                                                 </a>
 
                                             </div>
@@ -806,11 +673,11 @@
                                             <img class="has-top-bottom" src="assets/img/project/project4/1.jpg" alt="">
                                             <div class="item-border"></div>
                                             <div class="item-info">
-                                                <a href="" data-dsn-grid="move-up" class="effect-ajax">
+                                                <a href="project-4.html" data-dsn-grid="move-up" class="effect-ajax">
 
-                                                    <h5 class="cat">Event Number 3</h5>
-                                                    <h4>Jo and jump in the sea</h4>
-                                                    <span><span>In this event Lorem Ipsum will happen</span></span>
+                                                    <h5 class="cat">Photography</h5>
+                                                    <h4>Bastian Bux</h4>
+                                                    <span><span>Veiw Project</span></span>
                                                 </a>
 
                                             </div>
@@ -822,9 +689,9 @@
                                             <div class="item-info">
                                                 <a href="project-5.html" data-dsn-grid="move-up" class="effect-ajax">
 
-                                                    <h5 class="cat">Event Number 3</h5>
-                                                    <h4>Pizza Party</h4>
-                                                    <span><span>In this event Lorem Ipsum will happen</span></span>
+                                                    <h5 class="cat">Fashion</h5>
+                                                    <h4>Bloawshom</h4>
+                                                    <span><span>Veiw Project</span></span>
                                                 </a>
 
                                             </div>
@@ -889,7 +756,7 @@
                             <div class="left">
                                 <h2 class="title" data-dsn-grid="move-section" data-dsn-move="-60"
                                     data-dsn-duration="100%" data-dsn-opacity="1" data-dsn-responsive="tablet">
-                                    <span class="text">\Our Thoughts.</span>
+                                    <span class="text">Feedback from our clients.</span>
                                 </h2>
                             </div>
 
@@ -898,33 +765,39 @@
                                 <div class="slick-slider">
                                     <div class="item">
                                         <div class="quote">
-                                            <p>“They say an entrepreneur is a businessman, we say an entrepreneur was once a common man.”</p>
+                                            <p>"The Brief team has been sincerely committed to
+                                                designing great communication around our projects. Our customers love
+                                                their
+                                                creative work - and so do we!"</p>
                                         </div>
                                         <div class="bottom">
                                             <div class="avatar">
                                                 <img src="assets/img/avatar/1.jpg" alt="">
                                             </div>
                                             <div class="label">
-                                                <div class="cell">- The Entrepreneurship Cell, Aryabhatta College</div>
+                                                <div class="cell">- Helen Ginsberg, CEO of Treasure Island</div>
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="item">
                                         <div class="quote">
-                                            <p>"Commit to persevere"</p>
+                                            <p>"Stage direction, music, ballet, workshops, backstage, the GTG presents
+                                                the
+                                                first
+                                                episode of the series “Les Indes galantes en création"</p>
                                         </div>
                                         <div class="bottom">
                                             <div class="avatar">
                                                 <img src="assets/img/avatar/2.jpg" alt="">
                                             </div>
                                             <div class="label">
-                                                <div class="cell">- E-Summit, The E-Cell</div>
+                                                <div class="cell">- Helen Ginsberg, CEO of Treasure Island</div>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <!-- <div class="item">
+                                    <div class="item">
                                         <div class="quote">
                                             <p>"The Brief team has been sincerely committed to
                                                 designing great communication around our projects. Our customers love
@@ -939,135 +812,72 @@
                                                 <div class="cell">- Helen Ginsberg, CEO of Treasure Island</div>
                                             </div>
                                         </div>
-                                    </div> -->
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
-                <section id="speakersofesummit">
 
                 <section class="our-news section-margin" >
-
-
-
                     <div class="container">
                         <div class="one-title" data-dsn-animate="up">
                             <div class="title-sub-container">
-                                <p class="title-sub">Enlighten yourself with the words of our experienced speakers</p>
+                                <p class="title-sub">Latest News</p>
                             </div>
-                            <h2 class="title-main">Our Speakers</h2>
+                            <h2 class="title-main">Latest and greatest post</h2>
                         </div>
                         <div class="custom-container">
                             <div class="slick-slider">
                                 <div class="item-new slick-slide">
                                     <div class="image" data-overlay="5">
-                                        <img src="assets/img/sampleimg/girl1.jpg" alt="">
+                                        <img src="assets/img/blog/1.jpg" alt="">
                                     </div>
                                     <div class="content">
                                         <div class="background"></div>
-                                        <h5>CEO, ZERODHA</h5>
-
-                                        <div class="cta">
-                                            <a href="#">Speaker 1- Mr XYZ</a>
-                                        </div>
-
-                                        <p>CEO- ZERODHA.
-                                        <br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
-
-                                    </div>
-                                </div>
-
-                                <div class="item-new slick-slide">
-                                    <div class="image" data-overlay="5">
-                                        <img src="assets/img/sampleimg/girl2.jpg" alt="">
-                                    </div>
-                                    <div class="content">
-                                        <div class="background"></div>
-                                        <h5>CEO, Alphabet</h5>
-
-                                        <div class="cta">
-                                            <a href="#">SPEAKER 2- Mr. Sundar Pichai</a>
-                                        </div>
-
-                                        <p>CEO- ALPHABET.
-                                        <br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
-
-                                    </div>
-                                </div>
-
-                                <div class="item-new slick-slide">
-                                    <div class="image" data-overlay="5">
-                                        <img src="assets/img/sampleimg/men1.jpg" alt="">
-                                    </div>
-                                    <div class="content">
-                                        <div class="background"></div>
-                                        <h5>SPEAKER 3 CEO- TOTAL</h5>
+                                        <h5>Web , Brand</h5>
 
                                         <div class="cta">
                                             <a href="#">Digital Photography Tips</a>
                                         </div>
 
-                                        <p>CEO- ZERODHA.
-                                        <br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
-
-
-                                    </div>
-                                </div>
-
-                                <div class="item-new slick-slide">
-                                    <div class="image" data-overlay="5">
-                                        <img src="assets/img/sampleimg/man2.jpg" alt="">
-                                    </div>
-                                    <div class="content">
-                                        <div class="background"></div>
-                                        <h5>SPEAKER 4 CEO- ABC</h5>
-
-                                        <div class="cta">
-                                            <a href="#">Digital Photography Tips</a>
-                                        </div>
-
-                                        <p>CEO- ABC.
-                                        <br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
-
+                                        <p>Simple point-and-shoot digital cameras can give surprising quality when they
+                                            have the right lenses and sensors.</p>
 
                                     </div>
                                 </div>
 
                                 <div class="item-new slick-slide">
                                     <div class="image" data-overlay="5">
-                                        <img src="assets/img/sampleimg/3.png" alt="">
+                                        <img src="assets/img/blog/2.jpg" alt="">
                                     </div>
                                     <div class="content">
                                         <div class="background"></div>
-                                        <h5>SPEAKER 5 CEO- XYZ</h5>
+                                        <h5>Web , Brand</h5>
 
                                         <div class="cta">
                                             <a href="#">Digital Photography Tips</a>
                                         </div>
 
-                                        <p>CEO- XYZ.
-                                        <br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
-
-
+                                        <p>Simple point-and-shoot digital cameras can give surprising quality when they
+                                            have the right lenses and sensors.</p>
                                     </div>
                                 </div>
 
                                 <div class="item-new slick-slide">
                                     <div class="image" data-overlay="5">
-                                        <img src="assets/img/sampleimg/4.png" alt="">
+                                        <img src="assets/img/blog/3.jpg" alt="">
                                     </div>
                                     <div class="content">
                                         <div class="background"></div>
-                                        <h5>SPEAKER 6 CEO- LOREM IPSUM</h5>
+                                        <h5>Web , Brand</h5>
 
                                         <div class="cta">
                                             <a href="#">Digital Photography Tips</a>
                                         </div>
 
-                                        <p>CEO- LOREM IPSUM.
-                                        <br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
-
+                                        <p>Simple point-and-shoot digital cameras can give surprising quality when they
+                                            have the right lenses and sensors.</p>
 
                                     </div>
                                 </div>
@@ -1075,16 +885,15 @@
                             </div>
                         </div>
                     </div>
-                  </section>
                 </section>
 
                 <section class="brand-client section-margin">
                     <div class="container">
                         <div class="one-title" data-dsn-animate="up">
                             <div class="title-sub-container">
-                                <p class="title-sub">Our Sponsors</p>
+                                <p class="title-sub">Our clients</p>
                             </div>
-                            <h2 class="title-main">Together we turn impossible to possible.</h2>
+                            <h2 class="title-main">Your successful, our reputation</h2>
                         </div>
 
                         <div class="wapper-client">
@@ -1211,10 +1020,10 @@
                         <div class="c-wapp">
                             <a href="contact.html" class="effect-ajax">
                                 <span class="hiring">
-                                    Coming Very Soon.
+                                    We are hiring
                                 </span>
                                 <span class="career">
-                                    Hold your breath for the most awaited E-Summit 2021
+                                    Dare and contact us immediately!
                                 </span>
                             </a>
                         </div>
@@ -1223,151 +1032,4 @@
 
             </div>
 
-            <footer class="footer">
-                <div class="container">
-                    <div class="footer-links p-relative">
-                        <div class="row">
-                            <div class="col-md-3 dsn-col-footer">
-                                <div class="footer-block">
-                                    <div class="footer-logo">
-                                        <a href="#"><img src="assets/img/logo.png" alt=""></a>
-                                    </div>
-
-                                    <div class="footer-social">
-
-                                        <ul>
-                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-behance"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-
-                                        </ul>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-3 dsn-col-footer">
-                                <div class="footer-block col-menu">
-                                    <h4 class="footer-title">Navigation</h4>
-                                    <nav>
-                                        <ul>
-                                            <li><a href="#">Portfolio</a>
-                                            </li>
-                                            <li><a href="#">About</a></li>
-
-                                            <li><a href="#">Contact</a>
-                                            </li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>
-
-                            <div class="col-md-3 dsn-col-footer">
-                                <div class="footer-block col-contact">
-                                    <h4 class="footer-title">Contact</h4>
-                                    <p><strong>T</strong> <span>:</span> +001 225 3351</p>
-                                    <p><strong>F</strong> <span>:</span>+001 225 3351</p>
-                                    <p class="over-hidden"><strong>E</strong> <span>:</span><a class="link-hover"
-                                            data-hover-text="info@dsngrid.com" href="#">info@dsngrid.com</a>
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div class="col-md-3 dsn-col-footer">
-                                <div class="col-address">
-                                    <h4 class="footer-title">Address</h4>
-
-                                    <p>Benito Juarez Marg<br>
-                                        South Delhi,<br>
-                                        Delhi.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="copyright">
-                        <div class="text-center">
-                            <p>© 2021 E-Summit 2021</p>
-                            <div class="copright-text over-hidden">Designed by <a class="link-hover"
-                                    data-hover-text="DSN Grid" href="#" target="_blank">DSN Grid</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-        </div>
-    </main>
-
-    <!-- Wait Loader -->
-    <div class="wait-loader">
-        <div class="loader-inner">
-            <div class="loader-circle">
-                <div class="loader-layer"></div>
-            </div>
-        </div>
-    </div>
-    <!-- // Wait Loader -->
-
-
-    <!-- cursor -->
-    <div class="cursor">
-
-        <div class="cursor-helper cursor-view">
-            <span>VIEW</span>
-        </div>
-
-        <div class="cursor-helper cursor-close">
-            <span>Close</span>
-        </div>
-
-        <div class="cursor-helper cursor-link"></div>
-    </div>
-    <!-- End cursor -->
-
-    <!-- Optional JavaScript -->
-    <script src="assets/js/jquery-3.1.1.min.js"></script>
-    <script src="assets/js/plugins.js"></script>
-    <script src="assets/js/dsn-grid.js"></script>
-    <script src="assets/js/custom.js"></script>
-    <script type="text/javascript">
-    // Select all links with hashes
-$('a[href*="#"]')
-  // Remove links that don't actually link to anything
-  .not('[href="#"]')
-  .not('[href="#0"]')
-  .click(function(event) {
-    // On-page links
-    if (
-      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
-      &&
-      location.hostname == this.hostname
-    ) {
-      // Figure out element to scroll to
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-      // Does a scroll target exist?
-      if (target.length) {
-        // Only prevent default if animation is actually gonna happen
-        event.preventDefault();
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 1000, function() {
-          // Callback after animation
-          // Must change focus!
-          var $target = $(target);
-          $target.focus();
-          if ($target.is(":focus")) { // Checking if the target was focused
-            return false;
-          } else {
-            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
-            $target.focus(); // Set focus again
-          };
-        });
-      }
-    }
-  });
-
-    </script>
-</body>
-</html>
+<?php include "footer.php" ?>
