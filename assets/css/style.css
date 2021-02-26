@@ -397,8 +397,17 @@ html {
 /**
  * Remove the margin in all browsers.
  */
+ .sponsorname{
+   padding-left: 70px;
+ }
 body {
   margin: 0;
+}
+.datetop{
+  padding-left:300px;
+}
+#p1edit{
+  font-size: 50px;
 }
 
 /* Grouping content
@@ -529,7 +538,9 @@ textarea {
   margin: 0;
   /* 2 */
 }
-
+.p1{
+  font-size: 100px;
+}
 /**
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
