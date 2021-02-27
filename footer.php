@@ -5,7 +5,7 @@
                             <div class="col-md-3 dsn-col-footer">
                                 <div class="footer-block">
                                     <div class="footer-logo">
-                                        <a href="#"><img src="assets/img/logo.png" alt=""></a>
+                                        <a href="#"><img src="assets/img/sampleimg/ecellwhite.png" alt=""></a>
                                     </div>
 
                                     <div class="footer-social">
@@ -30,7 +30,7 @@
                                             <li><a href="#">Portfolio</a>
                                             </li>
                                             <li><a href="#">About</a></li>
-                                            <li><a href="#">News</a></li>
+
                                             <li><a href="#">Contact</a>
                                             </li>
                                         </ul>
@@ -41,10 +41,10 @@
                             <div class="col-md-3 dsn-col-footer">
                                 <div class="footer-block col-contact">
                                     <h4 class="footer-title">Contact</h4>
-                                    <p><strong>T</strong> <span>:</span> +91 9876543210</p>
-                                    <p><strong>F</strong> <span>:</span>+91 9087654321</p>
+                                    <p><strong>T</strong> <span>:</span> +001 225 3351</p>
+                                    <p><strong>F</strong> <span>:</span>+001 225 3351</p>
                                     <p class="over-hidden"><strong>E</strong> <span>:</span><a class="link-hover"
-                                            data-hover-text="admin@theecell.in" href="#">admin@theecell.in</a>
+                                            data-hover-text="info@dsngrid.com" href="#">info@dsngrid.com</a>
                                     </p>
                                 </div>
                             </div>
@@ -53,9 +53,9 @@
                                 <div class="col-address">
                                     <h4 class="footer-title">Address</h4>
 
-                                    <p>University of Delhi Plot No 5, <br>
-                                        Benito Juarez Marg, South Campus,<br>
-                                        Anand Niketan, New Delhi,110021</p>
+                                    <p>Benito Juarez Marg<br>
+                                        South Delhi,<br>
+                                        Delhi.</p>
                                 </div>
                             </div>
                         </div>
@@ -63,9 +63,9 @@
 
                     <div class="copyright">
                         <div class="text-center">
-                            <p>© E-SUMMIT'21 | E-Cell Aryabhatta </p>
+                            <p>© 2021 E-Summit 2021</p>
                             <div class="copright-text over-hidden">Designed by <a class="link-hover"
-                                    data-hover-text="DSN Grid" href="#" target="_blank">The Entrepreneurship Cell</a>
+                                    data-hover-text="DSN Grid" href="#" target="_blank">HARSH VERMA</a>
                             </div>
                         </div>
                     </div>
@@ -99,13 +99,12 @@
         <div class="cursor-helper cursor-link"></div>
     </div>
     <!-- End cursor -->
-
+    
     <!-- Optional JavaScript -->
     <script src="assets/js/jquery-3.1.1.min.js"></script>
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/dsn-grid.js"></script>
     <script src="assets/js/custom.js"></script>
+
 </body>
-
-
 </html>
