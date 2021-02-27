@@ -85,6 +85,9 @@
   padding-bottom: 30;
   margin: 0;
 }
+#topsect{
+  font-size: 25px;
+}
 
 .post-full-content.single-post > *:not(.gallery).section-padding.dsn-normalize-block,
 .post-full-content.single-post > *:not(.wp-block-quote) > p.section-padding.dsn-normalize-block,
@@ -7170,7 +7173,12 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
   text-align: center;
   margin-top: 15px;
 }
-
+#ideate{
+  font-size: 35px;
+}
+#abtya{
+  font-size: 25px;
+}
 .client-see .slick-dots li {
   position: relative;
   display: inline-block;
