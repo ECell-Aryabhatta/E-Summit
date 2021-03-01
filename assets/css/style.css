@@ -12578,3 +12578,9 @@ footer .copyright-social ul li:last-child {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+@media all and (min-device-width: 277px) and (max-width: 901px){
+	.hiddenbutton{
+    visibility: hidden;
+  }
+}
