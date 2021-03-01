@@ -12402,7 +12402,9 @@ footer .copyright-social ul li:last-child {
   margin-right: 5px;
   margin-left: 5px;
 }
-
+#entrcell{
+  font-size: 30px;
+}
 .footer .footer-links .footer-block .footer-logo {
   width: 200px;
 }
